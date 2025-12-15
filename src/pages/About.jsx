@@ -109,6 +109,7 @@ const About = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.1 }}
                         >
+                            <div className="value-icon">❤️</div>
                             <h3>Empathy</h3>
                             <p>We approach every individual with understanding and without judgment.</p>
                         </motion.div>
@@ -119,6 +120,7 @@ const About = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.2 }}
                         >
+                            <div className="value-icon">💡</div>
                             <h3>Innovation</h3>
                             <p>Leveraging technology to create new pathways for support and recovery.</p>
                         </motion.div>
@@ -129,6 +131,7 @@ const About = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.3 }}
                         >
+                            <div className="value-icon">🤝</div>
                             <h3>Community</h3>
                             <p>Building strong networks that foster belonging and mutual aid.</p>
                         </motion.div>

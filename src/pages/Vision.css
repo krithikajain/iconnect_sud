@@ -102,35 +102,79 @@
     color: var(--color-text-dark);
 }
 
+/* Reverted Impact Grid */
 .impact-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin-bottom: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .impact-card {
     background: var(--color-white);
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: var(--border-radius);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-sm);
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .impact-card:hover {
     transform: translateY(-5px);
-}
-
-.impact-icon {
-    font-size: 2.5rem;
-    display: block;
-    margin-bottom: 1rem;
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-secondary-blue);
 }
 
 .impact-card h3 {
-    color: var(--color-secondary-blue);
-    margin-bottom: 0.5rem;
+    color: var(--color-primary-dark);
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.impact-card p {
+    color: #555;
+    line-height: 1.5;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+/* Video Section Styles */
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-lg);
+    margin-top: 2rem;
+}
+
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    border: none;
+}
+
+.video-intro p {
+    text-align: center;
+    max-width: 890px;
+    margin: 0 auto 2rem;
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.7;
 }
 
 .vision-summary {

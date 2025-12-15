@@ -109,13 +109,35 @@ const Home = () => {
                 <div className="container">
                     <h2 className="section-title">Latest News & Milestones</h2>
                     <div className="news-grid-animated">
-                        {/* Partnership */}
+                        {/* 1. Google Cloud Credits */}
                         <motion.div
                             className="news-card"
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, margin: "-50px" }}
                             transition={{ duration: 0.5 }}
+                        >
+                            <div className="news-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=800&q=80)' }}></div>
+                            <div className="news-content">
+                                <h3>Google Cloud Credits</h3>
+                                <p>
+                                    We are incredibly grateful to receive Google Cloud credits in both September 2024 ($1,000) and December 2025. These vital funds directly support the hosting and database infrastructure of the iCONNECT SUD mobile app on the Google Cloud Platform, ensuring our community resources remain accessible and secure.
+                                </p>
+                                <div className="news-actions">
+                                    <a href="https://edu.google.com/intl/ALL_us/programs/credits/research/?modal_active=none" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary btn-sm">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </motion.div>
+
+                        {/* 2. Recovery Corps Partnership */}
+                        <motion.div
+                            className="news-card"
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            transition={{ duration: 0.5, delay: 0.2 }}
                         >
                             <div className="news-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80)' }}></div>
                             <div className="news-content">
@@ -132,24 +154,7 @@ const Home = () => {
                             </div>
                         </motion.div>
 
-                        {/* Fairfax for All */}
-                        <motion.div
-                            className="news-card"
-                            initial={{ opacity: 0, y: 50 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true, margin: "-50px" }}
-                            transition={{ duration: 0.5, delay: 0.2 }}
-                        >
-                            <div className="news-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=80)' }}></div>
-                            <div className="news-content">
-                                <h3>Fairfax for All!</h3>
-                                <p>
-                                    On January 23rd, 2024 Fairfax City Council voted to amend the zoning code in Fairfax City to ensure equitable access to health and human services for people with disabilities, substance use disorder, mental illness, and other vulnerable conditions.
-                                </p>
-                            </div>
-                        </motion.div>
-
-                        {/* Grant Received */}
+                        {/* 3. Grant Received */}
                         <motion.div
                             className="news-card"
                             initial={{ opacity: 0, y: 50 }}
@@ -166,6 +171,28 @@ const Home = () => {
                                 <div className="news-actions">
                                     <a href="https://venturewell.org/summer-2023-e-team/?utm_source=social&utm_medium=Facebook&utm_campaign=P_2023+Summer+E-Teams+Outreach+-+Registration" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary btn-sm">
                                         Read about VentureWell
+                                    </a>
+                                </div>
+                            </div>
+                        </motion.div>
+
+                        {/* 4. MIT Solve Submission */}
+                        <motion.div
+                            className="news-card"
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true, margin: "-50px" }}
+                            transition={{ duration: 0.5, delay: 0.6 }}
+                        >
+                            <div className="news-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80)' }}></div>
+                            <div className="news-content">
+                                <h3>MIT Solve Submission</h3>
+                                <p>
+                                    Check out our submission to the MIT Solve Global Challenges. We are proud to share our innovative approach to tackling substance use disorders.
+                                </p>
+                                <div className="news-actions">
+                                    <a href="https://solve.mit.edu/solutions/72996" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary btn-sm">
+                                        View Submission
                                     </a>
                                 </div>
                             </div>

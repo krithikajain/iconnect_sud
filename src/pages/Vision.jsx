@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import communityImg from '../assets/vision_community_circle.png';
 import networkImg from '../assets/vision_ecosystem_network.png';
+import hollyMattoImg from '../assets/holly_matto.jpg';
 import './Vision.css';
 
 const Vision = () => {
@@ -60,7 +61,6 @@ const Vision = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.1 }}
                         >
-                            <span className="impact-icon">🔗</span>
                             <h3>Connecting Help</h3>
                             <p>Connecting help to individuals on their recovery journey.</p>
                         </motion.div>
@@ -71,7 +71,6 @@ const Vision = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.2 }}
                         >
-                            <span className="impact-icon">🌐</span>
                             <h3>Coordinating Ecosystems</h3>
                             <p>Coordinating the ecosystem of community resources.</p>
                         </motion.div>
@@ -82,9 +81,44 @@ const Vision = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.3 }}
                         >
-                            <span className="impact-icon">📍</span>
                             <h3>Highlighting Resources</h3>
                             <p>Highlighting the closest available resources.</p>
+                        </motion.div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Holly Matto Quote Section (Matching Home Style) */}
+            <section className="section director-message-section" style={{ backgroundColor: '#fff' }}>
+                <div className="container">
+                    <div className="director-grid">
+                        <motion.div
+                            className="director-text"
+                            initial={{ opacity: 0, x: -20 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true }}
+                        >
+                            <p className="quote-text">
+                                "[iCONNECT] will have immediate local impact on the ways in which peer support specialists, individuals in recovery from substance use, and their families are able to connect with the specific resources needed to sustain recovery"
+                            </p>
+                        </motion.div>
+                        <motion.div
+                            className="director-image-wrapper"
+                            initial={{ opacity: 0, x: 20 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true }}
+                        >
+                            <img
+                                src={hollyMattoImg}
+                                alt="Holly Matto, PhD, MSW"
+                                className="director-img"
+                            />
+                            <div className="quote-author">
+                                <h4>Holly Matto, PhD, MSW</h4>
+                                <p>Associate Professor, Social Work</p>
+                                <p>Core Faculty, Center for Adaptive Systems of Brain-Body Interactions</p>
+                                <p>George Mason University</p>
+                            </div>
                         </motion.div>
                     </div>
                 </div>
@@ -118,7 +152,28 @@ const Vision = () => {
                     </div>
                 </div>
             </section>
-        </div>
+            {/* Video Section */}
+            <section className="section">
+                <div className="container">
+                    <div className="video-intro">
+                        <p>
+                            In collaboration with our partners at the REAN Foundation, we put together a short video to summarize Our Vision, including some background on Our Team and an example use case for Our App:
+                        </p>
+                    </div>
+                    <div className="video-responsive">
+                        <iframe
+                            width="853"
+                            height="480"
+                            src={`https://www.youtube.com/embed/dMdyhHDnz-s`}
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                            title="iCONNECT Vision Video"
+                        />
+                    </div>
+                </div>
+            </section>
+
+        </div >
     );
 };
 
