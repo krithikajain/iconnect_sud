@@ -75,7 +75,7 @@ const Layout = ({ children }) => {
                         <a href="https://www.linkedin.com/company/iconnect-sud" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
                         <a href="#" aria-label="X (Twitter)"><FaTwitter /></a>
                         <a href="https://www.tiktok.com/@iconnect_sud" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><FaTiktok /></a>
-                        <a href="#" aria-label="Facebook"><FaFacebook /></a>
+                        <a href="https://www.facebook.com/iConnectSUD/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><FaFacebook /></a>
                     </div>
                     <div className="footer-right">
                         <Link to="/privacy">Privacy Policy</Link>

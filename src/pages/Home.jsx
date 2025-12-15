@@ -3,7 +3,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import directorImg from '../assets/siddhartha_sikdar.jpg';
-import heroLogo from '../assets/iconnect_logo.png';
 import './Home.css';
 
 const Home = () => {

@@ -155,7 +155,7 @@ const Vision = () => {
                                 Our ultimate goal is to demonstrate that iCONNECT can be successfully deployed in Fairfax Country, the state of Virginia, and then the nation.
                             </p>
                             <p>
-                                Our community partners at the Fairfax Falls Church Community Service Board and Chris Atwood Foundation are our mentors and advisors. Together, with the guidance of our Principal Investigator and collaborating faculty members, we are confident that iCONNECT has real social good.
+                                Our community partners at the <a href="https://www.fairfaxcounty.gov/community-services-board/" target="_blank" rel="noopener noreferrer" className="text-link">Fairfax Falls Church Community Service Board</a> and <a href="https://www.thecaf.org/" target="_blank" rel="noopener noreferrer" className="text-link">Chris Atwood Foundation</a> are our mentors and advisors. Together, with the guidance of our Principal Investigator and collaborating faculty members, we are confident that iCONNECT has real social good.
                             </p>
                         </motion.div>
                     </div>
@@ -166,13 +166,13 @@ const Vision = () => {
                 <div className="container">
                     <div className="video-intro">
                         <p>
-                            In collaboration with our partners at the REAN Foundation, we put together a short video to summarize Our Vision, including some background on Our Team and an example use case for Our App:
+                            In collaboration with our partners at the <a href="https://www.reanfoundation.org/" target="_blank" rel="noopener noreferrer" className="text-link">REAN Foundation</a>, we put together a short video to summarize Our Vision, including some background on Our Team and an example use case for Our App:
                         </p>
                     </div>
                     <div className="video-responsive">
                         <iframe
-                            width="853"
-                            height="480"
+                            width="480"
+                            height="270"
                             src={`https://www.youtube.com/embed/dMdyhHDnz-s`}
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
