@@ -1,7 +1,9 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import directorImg from '../assets/siddhartha_sikdar.jpg';
+import heroLogo from '../assets/iconnect_logo_new.png';
 import './Home.css';
 
 const Home = () => {
@@ -17,15 +19,8 @@ const Home = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        {/* 
-                        <img 
-                          src="https://static.wixstatic.com/media/af64a8_a66049f75a7d46a8bf556ee7de7f747f~mv2.png/v1/crop/x_23,y_0,w_183,h_161/fill/w_255,h_225,al_c,lg_1,q_85,enc_avif,quality_auto/iCONNECT%20logo.png" 
-                          alt="iConnect" 
-                          className="hero-logo-img"
-                        /> 
-                        */}
-                        <h1 className="hero-main-title-large">iCONNECT</h1>
-                        <h2 className="hero-tagline">Empowering Recovery Through Connection</h2>
+                        <img src={heroLogo} alt="iCONNECT Logo" className="hero-logo-large" />
+                        <p className="hero-tagline">Empowering Recovery Through Connection</p>
 
                         <div className="hero-buttons">
                             <Link to="/app" className="btn btn-primary">Download App</Link>

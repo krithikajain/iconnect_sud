@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Layout.css';
 import { FaInstagram, FaLinkedin, FaTiktok, FaFacebook, FaTwitter } from 'react-icons/fa';
-import iconnectLogo from '../assets/iconnect_logo_new.png';
+import iconnectLogo from '../assets/iconnect_logo.png';
 
 const Layout = ({ children }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
