@@ -61,7 +61,10 @@ const Vision = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.1 }}
                         >
-                            <h3>Connecting Help</h3>
+                            <div className="impact-header">
+                                <span className="impact-icon-inline">🔗</span>
+                                <h3>Connecting Help</h3>
+                            </div>
                             <p>Connecting help to individuals on their recovery journey.</p>
                         </motion.div>
                         <motion.div
@@ -71,7 +74,10 @@ const Vision = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.2 }}
                         >
-                            <h3>Coordinating Ecosystems</h3>
+                            <div className="impact-header">
+                                <span className="impact-icon-inline">🌐</span>
+                                <h3>Coordinating Ecosystems</h3>
+                            </div>
                             <p>Coordinating the ecosystem of community resources.</p>
                         </motion.div>
                         <motion.div
@@ -81,7 +87,10 @@ const Vision = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.3 }}
                         >
-                            <h3>Highlighting Resources</h3>
+                            <div className="impact-header">
+                                <span className="impact-icon-inline">📍</span>
+                                <h3>Highlighting Resources</h3>
+                            </div>
                             <p>Highlighting the closest available resources.</p>
                         </motion.div>
                     </div>

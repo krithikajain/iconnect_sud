@@ -136,9 +136,20 @@
 
 .impact-card h3 {
     color: var(--color-primary-dark);
-    margin-bottom: 0.75rem;
     font-size: 1.25rem;
     font-weight: 700;
+    margin: 0;
+}
+
+.impact-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.impact-icon-inline {
+    font-size: 1.5rem;
 }
 
 .impact-card p {
@@ -162,8 +173,8 @@
 .video-responsive iframe {
     left: 0;
     top: 0;
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     position: absolute;
     border: none;
 }

@@ -2,6 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ourStoryImg from '../assets/our_story.jpg';
 import multidisciplinaryImg from '../assets/multidisciplinary.jpg';
+import value1Img from '../assets/value1.jpg';
+import value2Img from '../assets/value2.jpg';
+import value3Img from '../assets/value3.jpg';
 import './About.css';
 
 const About = () => {
@@ -109,7 +112,7 @@ const About = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.1 }}
                         >
-                            <div className="value-icon">❤️</div>
+                            <img src={value1Img} alt="Empathy" className="value-img" />
                             <h3>Empathy</h3>
                             <p>We approach every individual with understanding and without judgment.</p>
                         </motion.div>
@@ -120,7 +123,7 @@ const About = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.2 }}
                         >
-                            <div className="value-icon">💡</div>
+                            <img src={value2Img} alt="Innovation" className="value-img" />
                             <h3>Innovation</h3>
                             <p>Leveraging technology to create new pathways for support and recovery.</p>
                         </motion.div>
@@ -131,7 +134,7 @@ const About = () => {
                             viewport={{ once: true }}
                             transition={{ delay: 0.3 }}
                         >
-                            <div className="value-icon">🤝</div>
+                            <img src={value3Img} alt="Community" className="value-img" />
                             <h3>Community</h3>
                             <p>Building strong networks that foster belonging and mutual aid.</p>
                         </motion.div>
