@@ -21,20 +21,14 @@ const AppPage = () => {
         <div className="app-page">
             <div className="page-header">
                 <div className="container">
-                    <motion.h1
+                    <motion.div
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
                     >
-                        <h2>The iCONNECT SUD App</h2>
-                    </motion.h1>
-                    <motion.p
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ duration: 0.6, delay: 0.2 }}
-                    >
-                        <h2 style={{ color: 'var(--color-primary-green)' }}>Support, connection, and resources right in your pocket.</h2>
-                    </motion.p>
+                        <h1>The iCONNECT SUD App</h1>
+                        <p>Support, connection, and resources right in your pocket.</p>
+                    </motion.div>
                 </div>
             </div>
 

@@ -8,12 +8,7 @@
     padding: 0;
 }
 
-.app-page .page-header {
-    padding: 1rem 0;
-    /* Reduced padding */
-    background: transparent;
-    /* Optional: remove bg if needed */
-}
+
 
 .app-page .section {
     padding: 1rem 0;

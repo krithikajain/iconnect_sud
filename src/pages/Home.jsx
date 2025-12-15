@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import directorImg from '../assets/siddhartha_sikdar.jpg';
-import heroLogo from '../assets/iconnect_logo_new.png';
+import heroLogo from '../assets/iconnect_logo.png';
 import './Home.css';
 
 const Home = () => {
@@ -19,8 +19,7 @@ const Home = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        <img src={heroLogo} alt="iCONNECT Logo" className="hero-logo-large" />
-                        <p className="hero-tagline">Empowering Recovery Through Connection</p>
+                        <h1 className="hero-animated-title">Bridging Human Connections</h1>
 
                         <div className="hero-buttons">
                             <Link to="/app" className="btn btn-primary">Download App</Link>
@@ -77,7 +76,10 @@ const Home = () => {
                             viewport={{ once: true }}
                         >
                             <p className="quote-text">
-                                "Too often, academic research, especially in the STEM fields, can seem far removed from the daily realities of society. When we started the NSF-funded National Research Traineeship (NRT) program at the Center for Adaptive Systems of Brain Body Interactions at Mason, our vision was to provide our outstanding graduate students with an immersive experience in community-engaged user-centered problem solving to prepare them to address the pressing issues in society today. Our NRT trainees [at iCONNECT] worked closely with our wonderful community partners at the Chris Atwood Foundation and CASBBI faculty Holly Matto to <strong>#makeadifference</strong>."
+                                "Too often, academic research, especially in the STEM fields, can seem far removed from the daily realities of society. When we started the NSF-funded National Research Traineeship (NRT) program at the Center for Adaptive Systems of Brain Body Interactions(CASBBI) at Mason, our vision was to provide our outstanding graduate students with an immersive experience in community-engaged user-centered problem solving to prepare them to address the pressing issues in society today.
+                                <br />
+                                <br />
+                                Our NRT trainees [at iCONNECT] worked closely with our wonderful community partners at the Chris Atwood Foundation and CASBBI faculty Holly Matto to <strong>#makeadifference</strong>."
                             </p>
                         </motion.div>
                         <motion.div

@@ -7,7 +7,7 @@ import './Vision.css';
 const Vision = () => {
     return (
         <div className="vision-page">
-            <section className="vision-hero">
+            <div className="page-header">
                 <div className="container">
                     <motion.div
                         className="vision-hero-content"
@@ -19,7 +19,7 @@ const Vision = () => {
                         <p className="subtitle">A future where recovery is accessible, celebrated, and sustainable.</p>
                     </motion.div>
                 </div>
-            </section>
+            </div>
 
             <section className="section vision-section-split">
                 <div className="container">

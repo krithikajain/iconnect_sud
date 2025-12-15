@@ -61,11 +61,13 @@ const Layout = ({ children }) => {
             <footer className="footer">
                 <div className="container footer-content-compact">
                     <div className="footer-left">
-                        <img
-                            src={iconnectLogo}
-                            alt="iConnect Logo"
-                            className="footer-logo-img"
-                        />
+                        <Link to="/" className="footer-logo-link">
+                            <img
+                                src={iconnectLogo}
+                                alt="iConnect Logo"
+                                className="footer-logo-img"
+                            />
+                        </Link>
                         <p>&copy; {new Date().getFullYear()} by iCONNECT Apps</p>
                     </div>
                     <div className="footer-center">

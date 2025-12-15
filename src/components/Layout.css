@@ -37,6 +37,9 @@
 
 .nav-link {
     font-weight: 500;
+    /* Increased weight */
+    font-size: 1.2rem;
+    /* Increased size */
     transition: color 0.3s;
 }
 
@@ -118,7 +121,8 @@
 }
 
 .nav-logo-img {
-    height: 35px;
+    height: 45px;
+    /* Increased from 35px */
     width: auto;
     object-fit: contain;
     display: block;

@@ -62,7 +62,7 @@
 .hero {
     position: relative;
     /* Using group photo */
-    background-image: url('../assets/hero_group.jpg');
+    background-image: url('../assets/hero_bg_final.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,9 +71,8 @@
     /* Full viewport height minus header */
     min-height: 700px;
     display: flex;
-    align-items: flex-start;
     /* Changed from center to flex-start */
-    padding-top: 8rem;
+    padding-top: 18rem;
     /* Push content down from top */
     justify-content: center;
     text-align: center;
@@ -136,6 +135,15 @@
     border-radius: 20px;
     margin-bottom: 1.5rem;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero-animated-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--color-primary-green);
+    margin-bottom: 2rem;
+    text-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);
+    text-align: center;
 }
 
 .hero-text p {
