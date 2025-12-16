@@ -138,7 +138,7 @@ const Home = () => {
                             viewport={{ once: true, margin: "-50px" }}
                             transition={{ duration: 0.5, delay: 0.2 }}
                         >
-                            <div className="news-image" style={{ backgroundImage: 'url(https://plus.unsplash.com/premium_photo-1661427471513-1d3cf5ed3d82?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D)' }}></div>
+                            <div className="news-image" style={{ backgroundImage: 'url(https://media.istockphoto.com/id/1530248119/photo/rear-view-of-female-nurses-walking-with-coworkers-in-hospital-corridor.jpg?s=612x612&w=0&k=20&c=MBjYj5hvB1FwcBZvymZP-WfBF6u6B_KUVDdUr1Dhm5Q=)' }}></div>
                             <div className="news-content">
                                 <h3>Recovery Corps Partnership</h3>
                                 <p>

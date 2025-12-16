@@ -1,16 +1,57 @@
-# React + Vite
+# iConnect SUD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+iConnect SUD is a web platform dedicated to bridging the gap between research and community application for Substance Use Disorder (SUD) recovery. The project aims to empower communities with tools and resources to support sustainable recovery, leveraging technology and interdisciplinary collaboration.
 
-Currently, two official plugins are available:
+## Features
+*   **Home**: Latest news, milestones, and director's timeline.
+*   **Vision**: Detailed mission statement and community impact goals.
+*   **Team**: Meet our interdisciplinary team of founders, researchers, mentors, and interns.
+*   **App Showcase**: Preview of the mobile application and its core features.
+*   **Contact**: Get in touch with the team via email or visit the CASBBI center.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+*   **Frontend**: React (v19)
+*   **Build Tool**: Vite
+*   **Styling**: Vanilla CSS (Custom properties, responsive design)
+*   **Animation**: Framer Motion
+*   **Routing**: React Router DOM
+*   **Icons**: React Icons
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
+*   Node.js (v18+ recommended)
+*   npm
 
-## Expanding the ESLint configuration
+### Installation
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/krithikajain/iconnect_sud.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd iconnect_sud
+    ```
+3.  Install dependencies:
+    ```bash
+    npm install
+    ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Development
+Start the development server:
+```bash
+npm run dev
+```
+
+### Build
+Build for production:
+```bash
+npm run build
+```
+
+## Team
+iConnect SUD is led by Principal Investigator **Siddhartha Sikdar, PhD**, and Co-Founders **Rebecca Leung** and **Dylan Scarton**. The project is supported by a dedicated team of technical leads, coordinators, faculty mentors, and social media interns.
+
+---
+Developed with ❤️ by the iConnect SUD Team.

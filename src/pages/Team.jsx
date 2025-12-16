@@ -8,6 +8,7 @@ import padmanabhanImg from '../assets/Padmanabhan.jpg';
 import krithikaImg from '../assets/krithika.jpg';
 import lillianImg from '../assets/lillian.jpg';
 import siriImg from '../assets/siri.jpeg';
+import hectorImg from '../assets/hector.jpeg';
 import './Team.css';
 
 const founders = [
@@ -25,43 +26,13 @@ const founders = [
     }
 ];
 
-const piAndPc = [
+const leadership = [
     {
         name: 'Siddhartha Sikdar, PhD',
         role: 'Principal Investigator',
         image: siddharthaImg,
         link: 'https://www.linkedin.com/in/siddhartha-sikdar-b2603a1/'
     },
-    {
-        name: 'Jasmine',
-        role: 'Project Coordinator',
-        image: 'https://ui-avatars.com/api/?name=Jasmine&background=0D8ABC&color=fff',
-        link: '#'
-    }
-];
-
-const techTeam = [
-    {
-        name: 'Hector',
-        role: 'CTO',
-        image: 'https://ui-avatars.com/api/?name=Hector&background=0D8ABC&color=fff',
-        link: '#'
-    },
-    {
-        name: 'Krithika Jain',
-        role: 'Technical Lead',
-        image: krithikaImg,
-        link: '#'
-    },
-    {
-        name: 'Gabriel',
-        role: 'Tech Associate',
-        image: 'https://ui-avatars.com/api/?name=Gabriel&background=0D8ABC&color=fff',
-        link: '#'
-    }
-];
-
-const faculty = [
     {
         name: 'Holly Matto, PhD, MSW',
         role: 'Co-Faculty Mentor',
@@ -73,6 +44,33 @@ const faculty = [
         role: 'Co-Faculty Mentor',
         image: padmanabhanImg,
         link: 'https://www.linkedin.com/in/padhuseshaiyer/'
+    },
+    {
+        name: 'Jasmine Abuelhawa',
+        role: 'Project Coordinator',
+        image: 'https://ui-avatars.com/api/?name=Jasmine&background=0D8ABC&color=fff',
+        link: '#'
+    }
+];
+
+const techTeam = [
+    {
+        name: 'Hector Chavarria',
+        role: 'CTO',
+        image: hectorImg,
+        link: 'https://www.linkedin.com/in/hectorchavarria/'
+    },
+    {
+        name: 'Krithika Jain',
+        role: 'Technical Lead',
+        image: krithikaImg,
+        link: 'https://www.linkedin.com/in/krithika-jain/'
+    },
+    {
+        name: 'Gabriel Chavarria',
+        role: 'Tech Associate',
+        image: 'https://ui-avatars.com/api/?name=Gabriel&background=0D8ABC&color=fff',
+        link: '#'
     }
 ];
 
@@ -84,22 +82,22 @@ const interns = [
         link: '#'
     },
     {
-        name: 'Hajrah',
+        name: 'Hajrah R',
         role: 'Social Media Intern',
         image: 'https://ui-avatars.com/api/?name=Hajrah&background=ffc107&color=fff',
         link: '#'
     },
     {
-        name: 'Lillian',
+        name: 'Lillian Cline',
         role: 'Social Media Intern',
         image: lillianImg,
-        link: '#'
+        link: 'https://www.linkedin.com/in/lillian-cline-636b91358/'
     },
     {
-        name: 'Siri',
+        name: 'Siri Kalidindi',
         role: 'Social Media Intern',
         image: siriImg,
-        link: '#'
+        link: 'https://www.linkedin.com/in/siri-kalidindi-093798314/'
     }
 ];
 
@@ -156,10 +154,9 @@ const Team = () => {
                 <div className="container">
                     <div className="team-rows-container">
                         <TeamRow members={founders} delayOffset={0} />
-                        <TeamRow members={piAndPc} delayOffset={0.2} />
+                        <TeamRow members={leadership} delayOffset={0.2} />
                         <TeamRow members={techTeam} delayOffset={0.4} />
-                        <TeamRow members={faculty} delayOffset={0.6} />
-                        <TeamRow members={interns} delayOffset={0.8} />
+                        <TeamRow members={interns} delayOffset={0.6} />
                     </div>
                 </div>
             </section>
