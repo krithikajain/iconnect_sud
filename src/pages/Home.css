@@ -199,16 +199,16 @@
 /* News Section */
 .news-section {
     background-color: #fafafa;
-    padding: 6rem 0;
+    padding: 3rem 0;
     overflow: hidden;
     /* Prevent horizontal scrollbar on body */
 }
 
 .news-grid-animated {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -231,8 +231,8 @@
 }
 
 .news-image {
-    width: 40%;
-    min-height: 350px;
+    width: 45%;
+    min-height: 300px;
     background-size: cover;
     background-position: center;
     background-color: var(--color-light-gray);
@@ -374,6 +374,10 @@
     }
 
     .press-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .news-grid-animated {
         grid-template-columns: 1fr;
     }
 

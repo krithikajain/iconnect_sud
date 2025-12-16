@@ -116,7 +116,7 @@ const Home = () => {
                             viewport={{ once: true, margin: "-50px" }}
                             transition={{ duration: 0.5 }}
                         >
-                            <div className="news-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=800&q=80)' }}></div>
+                            <div className="news-image" style={{ backgroundImage: 'url(https://yt3.googleusercontent.com/ytc/AIdro_n94STjDykDksYxhfE4RhM1BT4R2H69tIAHav8jrey03qQ=s900-c-k-c0x00ffffff-no-rj)' }}></div>
                             <div className="news-content">
                                 <h3>Google Cloud Credits</h3>
                                 <p>
@@ -138,7 +138,7 @@ const Home = () => {
                             viewport={{ once: true, margin: "-50px" }}
                             transition={{ duration: 0.5, delay: 0.2 }}
                         >
-                            <div className="news-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80)' }}></div>
+                            <div className="news-image" style={{ backgroundImage: 'url(https://plus.unsplash.com/premium_photo-1661427471513-1d3cf5ed3d82?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D)' }}></div>
                             <div className="news-content">
                                 <h3>Recovery Corps Partnership</h3>
                                 <p>
@@ -183,7 +183,7 @@ const Home = () => {
                             viewport={{ once: true, margin: "-50px" }}
                             transition={{ duration: 0.5, delay: 0.6 }}
                         >
-                            <div className="news-image" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80)' }}></div>
+                            <div className="news-image" style={{ backgroundImage: 'url(https://d3t35pgnsskh52.cloudfront.net/uploads/conversions/55968_SAM%20COVER%20PHOTO-responsive.jpg)' }}></div>
                             <div className="news-content">
                                 <h3>MIT Solve Submission</h3>
                                 <p>
