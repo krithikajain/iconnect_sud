@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import directorImg from '../assets/siddhartha_sikdar.jpg';
+import danielImg from '../assets/Daniel.jpg';
 import './Home.css';
 
 const Home = () => {
@@ -102,6 +103,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
 
             {/* News & Milestones Section */}
             <section className="section news-section">
@@ -228,7 +230,43 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
+            {/* Community Partner Quote */}
+            <section className="section director-message-section" style={{ borderTop: '1px solid #eee' }}>
+                <div className="container">
+                    <div className="director-grid">
+                        <motion.div
+                            className="director-text"
+                            initial={{ opacity: 0, x: -20 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true }}
+                        >
+                            <p className="quote-text">
+                                "People caught up in substance use and trying to recover have limited information about the resources available to them. As a peer recovery specialist, you always have resources at your fingertips.
+                                <br />
+                                <br />
+                                It's been a blessing to partner with George Mason University. This app is a tremendous idea and something that I can pass on to the individuals I help and teach them how to be self-reliant in a positive way."
+                            </p>
+                        </motion.div>
+                        <motion.div
+                            className="director-image-wrapper"
+                            initial={{ opacity: 0, x: 20 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true }}
+                        >
+                            <img
+                                src={danielImg}
+                                alt="Daniel Adams"
+                                className="director-img"
+                            />
+                            <div className="quote-author">
+                                <h4>Daniel Adams, RPRS, CPRS-T</h4>
+                                <p>Community Outreach Coordinator</p>
+                                <p>The Chris Atwood Foundation</p>
+                            </div>
+                        </motion.div>
+                    </div>
+                </div>
+            </section>
             {/* Call to Action */}
             <section className="section cta-section">
                 <div className="container text-center">

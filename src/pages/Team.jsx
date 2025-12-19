@@ -9,6 +9,7 @@ import krithikaImg from '../assets/krithika.jpg';
 import lillianImg from '../assets/lillian.jpg';
 import siriImg from '../assets/siri.jpeg';
 import hectorImg from '../assets/hector.jpeg';
+import hajrahImg from '../assets/hajrah.jpeg';
 import './Team.css';
 
 const founders = [
@@ -46,7 +47,7 @@ const leadership = [
         link: 'https://www.linkedin.com/in/padhuseshaiyer/'
     },
     {
-        name: 'Jasmine Abuelhawa',
+        name: 'Jasmine',
         role: 'Project Coordinator',
         image: 'https://ui-avatars.com/api/?name=Jasmine&background=0D8ABC&color=fff',
         link: '#'
@@ -82,10 +83,10 @@ const interns = [
         link: '#'
     },
     {
-        name: 'Hajrah R',
+        name: 'Hajrah Noor ',
         role: 'Social Media Intern',
-        image: 'https://ui-avatars.com/api/?name=Hajrah&background=ffc107&color=fff',
-        link: '#'
+        image: hajrahImg,
+        link: 'https://www.linkedin.com/in/hajrah-noor/'
     },
     {
         name: 'Lillian Cline',
