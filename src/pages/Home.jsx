@@ -23,7 +23,7 @@ const Home = () => {
 
                         <div className="hero-buttons">
                             <Link to="/app" className="btn btn-primary">Download App</Link>
-                            <Link to="/contact" className="btn btn-white-outline">Get in Touch</Link>
+                            <Link to="/contact" className="btn btn-secondary">Get in Touch</Link>
                         </div>
                     </motion.div>
                 </div>
