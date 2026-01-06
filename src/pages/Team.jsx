@@ -5,11 +5,13 @@ import hollyImg from '../assets/holly_matto.jpg';
 import rebeccaImg from '../assets/rebecca.jpg';
 import dylanImg from '../assets/dylan.jpg';
 import padmanabhanImg from '../assets/Padmanabhan.jpg';
-import krithikaImg from '../assets/krithika.jpg';
+import krithikaImg from '../assets/krithika.png';
 import lillianImg from '../assets/lillian.jpg';
 import siriImg from '../assets/siri.jpeg';
 import hectorImg from '../assets/hector.jpeg';
 import hajrahImg from '../assets/hajrah.jpeg';
+import camilaImg from '../assets/camila.jpeg';
+import gabrielImg from '../assets/gabriel.png';
 import './Team.css';
 
 const founders = [
@@ -49,7 +51,7 @@ const leadership = [
     {
         name: 'Jasmine',
         role: 'Project Coordinator',
-        image: 'https://ui-avatars.com/api/?name=Jasmine&background=0D8ABC&color=fff',
+        image: 'https://ui-avatars.com/api/?name=Jasmine&background=0D8ABC&color=fff&length=1',
         link: '#'
     }
 ];
@@ -70,16 +72,16 @@ const techTeam = [
     {
         name: 'Gabriel Chavarria',
         role: 'Tech Associate',
-        image: 'https://ui-avatars.com/api/?name=Gabriel&background=0D8ABC&color=fff',
+        image: gabrielImg,
         link: '#'
     }
 ];
 
 const interns = [
     {
-        name: 'Camila',
+        name: 'Camila Nicole',
         role: 'Social Media Intern',
-        image: 'https://ui-avatars.com/api/?name=Camila&background=ffc107&color=fff',
+        image: camilaImg,
         link: '#'
     },
     {

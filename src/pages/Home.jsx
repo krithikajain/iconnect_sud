@@ -118,7 +118,7 @@ const Home = () => {
                             viewport={{ once: true, margin: "-50px" }}
                             transition={{ duration: 0.5 }}
                         >
-                            <div className="news-image" style={{ backgroundImage: 'url(https://yt3.googleusercontent.com/ytc/AIdro_n94STjDykDksYxhfE4RhM1BT4R2H69tIAHav8jrey03qQ=s900-c-k-c0x00ffffff-no-rj)' }}></div>
+                            <div className="news-image" style={{ backgroundImage: 'url(https://images.seeklogo.com/logo-png/33/1/google-cloud-logo-png_seeklogo-336116.png', backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}></div>
                             <div className="news-content">
                                 <h3>Google Cloud Credits</h3>
                                 <p>
