@@ -6,13 +6,13 @@ const Privacy = () => {
         <div className="privacy-page">
             <div className="container">
                 <h1>Privacy Policy</h1>
-                <p className="last-updated">Last Updated: December 2025</p>
+                <p className="last-updated">Last Updated: January 2026</p>
 
                 <div className="policy-content">
                     <section>
 
-                        <h3>Version 1.1.22</h3>
-                        <b>Effective 2023-07-11</b>
+                        <h3>Version 1.1.26</h3>
+                        <b>Effective 2026-01-12</b>
                         <p>The Center for Adaptive Systems of Brain-Body Interactions at George Mason University built iCONNECT to be used as a free application (henceforth referred to as ‘Service’). This Service is provided at no cost and is intended for use as is.</p>
                         <p>This document (henceforth referred to as ‘Policy’) was developed to inform visitors about our policies regarding the collection, use, and disclosure of Personal Information while using our Service.</p>
                         <p>If you choose to use our Service, then you agree to the collection and use of information in relation to this Policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.</p>

@@ -12,6 +12,7 @@ import hectorImg from '../assets/hector.jpeg';
 import hajrahImg from '../assets/hajrah.jpeg';
 import camilaImg from '../assets/camila.jpeg';
 import gabrielImg from '../assets/gabriel.png';
+import jasmineImg from '../assets/jasmine.jpeg';
 import './Team.css';
 
 const founders = [
@@ -49,9 +50,9 @@ const leadership = [
         link: 'https://www.linkedin.com/in/padhuseshaiyer/'
     },
     {
-        name: 'Jasmine',
+        name: 'Jasmine A',
         role: 'Project Coordinator',
-        image: 'https://ui-avatars.com/api/?name=Jasmine&background=0D8ABC&color=fff&length=1',
+        image: jasmineImg,
         link: '#'
     }
 ];

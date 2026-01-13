@@ -69,11 +69,11 @@ const Contact = () => {
                                 window.location.href = `mailto:goodtroublers@iconnectcounseling.org?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
                             }}>
                                 <div className="form-group">
-                                    <label htmlFor="name">Name</label>
+                                    <label htmlFor="name">Name *</label>
                                     <input type="text" id="name" name="name" placeholder="Your Name" required />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="email">Email</label>
+                                    <label htmlFor="email">Email *</label>
                                     <input type="email" id="email" name="email" placeholder="Your Email" required />
                                 </div>
                                 <div className="form-group">
